@@ -1,9 +1,9 @@
 <h1 align="center">Slimex</h1>
 <p align="center">
     <a href="https://styleci.io/repos/88024185"><img src="https://styleci.io/repos/88024185/shield?branch=master" alt="StyleCI"></a>
-    <a href="https://packagist.org/packages/smarthacksop/slimex"><img src="https://poser.pugx.org/smarthacksop/slimex/d/total.svg" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/smarthacksop/slimex"><img src="https://poser.pugx.org/smarthacksop/slimex/v/stable.svg" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/smarthacksop/slimex"><img src="https://poser.pugx.org/smarthacksop/slimex/license.svg" alt="License"></a>
+    <a href="https://packagist.org/packages/smarthacksop/slimex"><img src="https://poser.pugx.org/smarthacks/slimex/d/total" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/smarthacksop/slimex"><img src="https://poser.pugx.org/smarthacks/slimex/v/stable" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/smarthacksop/slimex"><img src="https://poser.pugx.org/smarthacks/slimex/license.svg" alt="License"></a>
 </p>
 <hr>
 <h3>About Slimex</h3>
