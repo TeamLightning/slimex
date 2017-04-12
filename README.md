@@ -7,7 +7,7 @@
 </p>
 <hr>
 <h3>About Slimex</h3>
-Slimex as the name suggests is a fast, adorable and easy framework implemented on top of the slimphp. It has robust caching feature and database ORM. It uses [medoo lightweight query builder](http://medoo.in). You can start using this framework in seconds.
+Slimex as the name suggests is a fast, adorable and easy framework implemented on top of the slimphp. It has robust caching feature and database ORM. It uses <a href="http://medoo.in">medoo lightweight query builder</a>. You can start using this framework in seconds.
 <hr>
 <h3>Using Slimex</h3>
 Slimex has the most aggressive and straight-forward documentation. You can head over to the docs and get this framework up and running in few seconds and master it in minutes.
@@ -18,5 +18,7 @@ Thanks for thinking to contribute to us. We follow strict coding style compilati
 For non developers, you can still help us by awarding us a star and help us reach the soundy world :P
 <hr>
 <h3>Thanks to</h3>
-* [Slim Framework](https://www.slimframework.com/)
-* [Medoo ORM](http://medoo.in/)
+<ul>
+    <li><a href="https://www.slimframework.com/">Slim Framework</a></li>
+    <li><a href="http://medoo.in/">Medoo ORM</a></li>
+</ul>
