@@ -1,8 +1,7 @@
 <?php
 
-$container['view'] = function($container)
-{
-    $view = new \Slim\Views\Twig(__DIR__ . '/../app/resources/views', [
+$container['view'] = function ($container) {
+    $view = new \Slim\Views\Twig(__DIR__.'/../app/resources/views', [
         //'cache' => __DIR__ . '/../storage/cache/views'
     ]);
 
@@ -14,12 +13,10 @@ $container['view'] = function($container)
     return $view;
 };
 
-$container['db'] = function($container)
-{
+$container['db'] = function ($container) {
     return new \Medoo\Medoo($container['settings']['db']);
 };
 
-$container['HomeController'] = function($container)
-{
+$container['HomeController'] = function ($container) {
     return new \App\Controllers\HomeController($container);
 };
