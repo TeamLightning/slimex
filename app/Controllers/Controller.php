@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-
 class Controller
 {
     protected $container;
@@ -14,9 +13,10 @@ class Controller
 
     public function __get($property)
     {
-        if($this->container->{$property})
+        if ($this->container->{$property}) {
             return $this->container->{$property};
-        else
-            return null;
+        } else {
+            return;
+        }
     }
 }
