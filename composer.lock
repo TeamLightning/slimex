@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "98051482ac5041079874ff09afd33e01",
+    "content-hash": "e2f04ee47cd2b0554e5d068527c3dd98",
     "packages": [
         {
             "name": "catfan/medoo",
-            "version": "v1.2.1",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "b5a788c90c44db0f978512c890cb6962af4685e8"
+                "reference": "a01285cf2eae1911e87640358bb131d1fd5c6adf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/catfan/Medoo/zipball/b5a788c90c44db0f978512c890cb6962af4685e8",
-                "reference": "b5a788c90c44db0f978512c890cb6962af4685e8",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/a01285cf2eae1911e87640358bb131d1fd5c6adf",
+                "reference": "a01285cf2eae1911e87640358bb131d1fd5c6adf",
                 "shasum": ""
             },
             "require": {
@@ -25,12 +25,13 @@
                 "php": ">=5.4"
             },
             "suggest": {
-                "ext-pdo_dblib": "For MSSQL or Sybase databases on Linux/UNIX platform",
-                "ext-pdo_mysql": "For MySQL or MariaDB databases",
-                "ext-pdo_oci": "For Oracle databases",
-                "ext-pdo_pqsql": "For PostgreSQL databases",
-                "ext-pdo_sqlite": "For SQLite databases",
-                "ext-pdo_sqlsrv": "For MSSQL databases on Windows platform"
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_oci8": "For Oracle version 8 database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database on Windows platform"
             },
             "type": "framework",
             "autoload": {
@@ -48,18 +49,21 @@
                     "email": "angel@catfan.me"
                 }
             ],
-            "description": "The Lightest PHP database framework to accelerate development",
-            "homepage": "http://medoo.in",
+            "description": "The lightest PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
             "keywords": [
                 "database",
                 "lightweight",
+                "mariadb",
                 "mssql",
                 "mysql",
+                "oracle",
                 "php framework",
+                "postgresql",
                 "sql",
                 "sqlite"
             ],
-            "time": "2017-02-17T16:05:35+00:00"
+            "time": "2017-05-11T23:53:15+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -462,16 +466,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.3.0",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "9718186a5df85a4f7917e78d3ffcabc204c75d25"
+                "reference": "85e8372c451510165c04bf781295f9d922fa524b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9718186a5df85a4f7917e78d3ffcabc204c75d25",
-                "reference": "9718186a5df85a4f7917e78d3ffcabc204c75d25",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/85e8372c451510165c04bf781295f9d922fa524b",
+                "reference": "85e8372c451510165c04bf781295f9d922fa524b",
                 "shasum": ""
             },
             "require": {
@@ -521,7 +525,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-03-22T15:41:51+00:00"
+            "time": "2017-04-21T00:13:02+00:00"
         }
     ],
     "packages-dev": [],
@@ -530,6 +534,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "7.*",
+        "ext-sqlite3": "*"
+    },
     "platform-dev": []
 }

@@ -13,7 +13,9 @@
   "require": {
     "slim/slim": "3.8.1",
     "slim/twig-view": "2.2.0",
-    "catfan/medoo": "v1.2.1"
+    "catfan/medoo": "1.4.1",
+    "php": "7.*",
+    "ext-sqlite3": "*"
   },
   "autoload": {
     "psr-4":{
