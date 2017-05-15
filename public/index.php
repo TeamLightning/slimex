@@ -1,6 +1,6 @@
 <?php
 
-define('DEVELOPMENT', TRUE);
+define('DEVELOPMENT', true);
 
 require __DIR__.'/../bootstrap/app.php';
 
