@@ -3,7 +3,7 @@
 /**
  * --------------------------------------------------
  *  The main router
- * --------------------------------------------------
+ * --------------------------------------------------.
  *
  * You can place all your routes here. You can place
  * groups, map requests, or slim specific GET, POST,
@@ -11,5 +11,4 @@
  *
  * @see https://www.slimframework.com/docs/objects/router.html
  */
-
 $app->get('/', 'HomeController:index');
